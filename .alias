@@ -1,0 +1,2 @@
+# Lock the screen (when going AFK - Away From Keyboard)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
