@@ -29,7 +29,7 @@ source $ZSH/oh-my-zsh.sh
 # =============================================================================
 
 POWERLEVEL9K_MODE="nerdfont-complete"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status_joined root_indicator dir dir_writable_joined vcs_joined)   
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status anaconda virtualenv root_indicator dir_joined dir_writable_joined vcs_joined)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time background_jobs_joined time_joined user_joined host_joined)
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -82,6 +82,9 @@ POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="clear"
 POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="clear"
 POWERLEVEL9K_VCS_MODIFIED_FOREGROUND="yellow"
 POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND="yellow"
+POWERLEVEL9K_VCS_SHORTEN_LENGTH=30
+POWERLEVEL9K_VCS_SHORTEN_MIN_LENGTH=30
+POWERLEVEL9K_VCS_SHORTEN_STRATEGY="truncate_from_right"
 
 POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND="clear"
 POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND="magenta"
@@ -97,6 +100,12 @@ POWERLEVEL9K_ROOT_ICON="\u26a1"
 POWERLEVEL9K_HOST_LOCAL_BACKGROUND="clear"
 POWERLEVEL9K_HOST_LOCAL_FOREGROUND="cyan"
 POWERLEVEL9K_HOST_ICON="\uF109 "
+POWERLEVEL9K_SSH_ICON="\uF489 "
+
+VIRTUAL_ENV_DISABLE_PROMPT=1
+POWERLEVEL9K_ANACONDA_LEFT_DELIMITER=""
+POWERLEVEL9K_ANACONDA_RIGHT_DELIMITER=""
+POWERLEVEL9K_ANACONDA_BACKGROUND="green"
 
 # Load dotfiles
 for file in $dotfiles/.{fzf.zsh,export,alias,bmw-alias,inputrc,functions,history}; do
