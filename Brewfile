@@ -11,6 +11,7 @@ brew "kafka", restart_service: true
 brew "leiningen"
 brew "maven", link: false
 brew "maven@3.2"
+brew "maven@3.5"
 brew "moreutils"
 brew "node"
 brew "python"
