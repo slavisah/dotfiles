@@ -6,5 +6,5 @@ alias bmw-db-3-lscread="/Users/shrkac/repos/bmw/vehicle-state/carstatus_local_se
 alias bmw-db-8-mq="/Users/shrkac/repos/bmw/vehicle-state/carstatus_local_setup/db-connection-setup/ssh-port-forwarding.sh /Users/shrkac/repos/bmw/vehicle-state/carstatus_local_setup/db-connection-setup/mappings-dbhost-ports/8-mq.csv"
 alias bmw-db-9-dynatrace="/Users/shrkac/repos/bmw/vehicle-state/carstatus_local_setup/db-connection-setup/ssh-port-forwarding.sh /Users/shrkac/repos/bmw/vehicle-state/carstatus_local_setup/db-connection-setup/mappings-dbhost-ports/9-dynatrace.csv"
 alias bmw-ssh-list="ps -ef | grep 'ssh *.*bmw-.*jump' | grep -v 'grep'"
-alias bmw-ssh-killall="ps aux | grep -ie 'ssh *.*bmw-.*jump' | grep -v 'grep' | awk '{print \$2}' | xargs kill -9 \$2"
+alias bmw-ssh-killall="ps aux | grep -ie 'ssh *.*bmw-.*jump' | grep -v 'grep' | awk '{print \$2}' | xargs kill -9"
 alias mq-explorer="~/software/mq-explorer/Eclipse.app/Contents/MacOS/eclipse"§
