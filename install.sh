@@ -1,4 +1,4 @@
-#! /bin/bash/
+#! /bin/bash
 echo "Installing Mac Environment"
 orig=$(pwd)
 # Symlink most important config file
@@ -12,4 +12,4 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/powerlevel9k
 
 # Set up shell
 brew install zsh
-chsh -s $(which zsh)
+chsh -s "$(command -v zsh)"
