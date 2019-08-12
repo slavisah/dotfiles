@@ -10,3 +10,6 @@ export PATH="/Users/shrkac/.minishift/cache/oc/v3.11.0/darwin:/Users/shrkac/.min
 
 # git to be in english
 export LANG="en_US.UTF-8"
+
+# Homebrew
+export PATH="/usr/local/sbin:$PATH"
