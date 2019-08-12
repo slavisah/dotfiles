@@ -108,7 +108,7 @@ POWERLEVEL9K_ANACONDA_RIGHT_DELIMITER=""
 POWERLEVEL9K_ANACONDA_BACKGROUND="green"
 
 # Load dotfiles
-for file in $dotfiles/.{fzf.zsh,export,alias,bmw-alias,inputrc,functions,history}; do
+for file in $dotfiles/.{fzf.zsh,export,alias,inputrc,functions,history}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file"
 done
 
