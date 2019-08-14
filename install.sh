@@ -3,6 +3,7 @@ echo "Installing Mac Environment"
 orig=$(pwd)
 # Symlink most important config file
 ln -s orig/.zshrc ~
+ln -s orig/.sandboxrc ~
 
 # Install brew 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

@@ -6,10 +6,12 @@ eval "$(jenv init -)"
 export PATH="/usr/local/opt/maven@3.5/bin:$PATH"
 
 # MINISHIFT
-export PATH="/Users/shrkac/.minishift/cache/oc/v3.11.0/darwin:/Users/shrkac/.minishift/cache/oc/v3.9.0/darwin:$PATH"
+export PATH="$HOME/.minishift/cache/oc/v3.11.0/darwin:$HOME/.minishift/cache/oc/v3.9.0/darwin:$PATH"
 
 # git to be in english
 export LANG="en_US.UTF-8"
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"

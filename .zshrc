@@ -22,6 +22,7 @@ plugins=(
   history
 )
 
+source $dotfiles/sandboxd
 source $ZSH/oh-my-zsh.sh
 
 # =============================================================================
