@@ -13,7 +13,8 @@ brew "leiningen"
 brew "maven", link: false
 brew "maven@3.2"
 brew "maven@3.5"
-brew "mongodb-community@4.0"
+brew "mongodb-community", link: false
+brew "mongodb-community@3.6"
 brew "moreutils"
 brew "nvm"
 brew "privoxy"
