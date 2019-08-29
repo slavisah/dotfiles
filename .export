@@ -16,5 +16,5 @@ export PATH="/usr/local/sbin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 
-# Mongo
+# mongodb-community
 export PATH="/usr/local/opt/mongodb-community@3.6/bin:$PATH"
