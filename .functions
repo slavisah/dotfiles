@@ -21,3 +21,9 @@ function o() {
 function f() {
   find . -name "$1" 2>&1 | grep -v 'Permission denied'
 }
+
+function grepb () {
+  IFS= read -r header
+  echo "$header"
+  grep "$@"
+}
