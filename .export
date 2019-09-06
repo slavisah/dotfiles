@@ -9,7 +9,7 @@ export PATH="/usr/local/opt/maven@3.5/bin:$PATH"
 export PATH="$HOME/.minishift/cache/oc/v3.11.0/darwin:$HOME/.minishift/cache/oc/v3.9.0/darwin:$PATH"
 
 # git to be in english
-export LANG="en_US.UTF-8"
+# export LANG="en_US.UTF-8"
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
