@@ -10,7 +10,6 @@ brew "bat"
 brew "fzf"
 brew "git"
 brew "jenv"
-brew "kafka", restart_service: true
 brew "leiningen"
 brew "maven", link: false
 brew "maven@3.2"
