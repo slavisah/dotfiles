@@ -3,7 +3,7 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 # MAVEN
-export PATH="/usr/local/opt/maven@3.5/bin:$PATH"
+# export PATH="/usr/local/opt/maven@3.5/bin:$PATH"
 
 # MINISHIFT
 export PATH="$HOME/.minishift/cache/oc/v3.11.0/darwin:$HOME/.minishift/cache/oc/v3.9.0/darwin:$PATH"
