@@ -1,6 +1,5 @@
 # JENV
 export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
 
 # MAVEN
 # export PATH="/usr/local/opt/maven@3.5/bin:$PATH"
