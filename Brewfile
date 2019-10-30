@@ -14,6 +14,7 @@ brew "leiningen"
 brew "mongodb-community", link: false
 brew "mongodb-community@3.6"
 brew "moreutils"
+brew "mtr"
 brew "nvm"
 brew "pipenv"
 brew "privoxy"
