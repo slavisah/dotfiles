@@ -2,3 +2,5 @@
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 alias dps='docker ps --format "table {{.Names}}\t{{.Status}}"'
+
+alias mq-explorer="~/software/mq-explorer/Eclipse.app/Contents/MacOS/eclipse"
