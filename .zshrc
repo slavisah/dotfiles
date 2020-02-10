@@ -11,7 +11,7 @@ DEFAULT_USER=$USER
 # Oh My Zsh plugins
 plugins=(
   git
-  # aws #boot slow down
+  aws #boot slow down
   docker
   jsontools
   vscode
