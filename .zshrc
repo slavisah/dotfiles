@@ -22,16 +22,21 @@ plugins=(
   history
 )
 
+if [ "$TERM_PROGRAM" = "iTerm.app" ]; then
+  source $dotfiles/slavisah.zsh-theme
+  source ~/powerlevel9k/powerlevel9k.zsh-theme
+else
+  ZSH_THEME="robbyrussell"
+fi
+
 source $dotfiles/sandboxd
 source $ZSH/oh-my-zsh.sh
-source $dotfiles/slavisah.zsh-theme
 
 # Load dotfiles
 for file in $dotfiles/.{fzf.zsh,export,alias,inputrc,functions,history}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file"
 done
 
-source ~/powerlevel9k/powerlevel9k.zsh-theme
 
 zstyle ':completion:*' completer _complete
 zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' '+l:|=* r:|=*'
