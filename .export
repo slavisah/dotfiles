@@ -1,9 +1,6 @@
 # OpenShift client
 export PATH="$HOME/software/openshift-client/3.6:$PATH"
 
-# git to be in english
-# export LANG="en_US.UTF-8"
-
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
 
