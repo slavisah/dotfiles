@@ -17,3 +17,11 @@ alias mq-explorer="~/software/mq-explorer/Eclipse.app/Contents/MacOS/eclipse"
 alias mkvenv='virtualenv -p python3.7 venv3.7'
 # activate virtual env
 alias venv='. ./venv*/bin/activate'
+
+alias pipenv-install='PIPENV_VENV_IN_PROJECT=1 pipenv install'
+
+# ----------
+# AWS
+# ----------
+
+alias aws='AWS_PAGER="" aws'
