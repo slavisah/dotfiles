@@ -2,9 +2,9 @@
 echo "Installing Mac Environment"
 orig=$(pwd)
 # Symlink most important config file
-ln -s orig/.zshrc ~
-ln -s orig/.sandboxrc ~
-ln -s orig/.mavenrc ~
+ln -sv $orig/.zshrc ~
+ln -sv $orig/.sandboxrc ~
+ln -sv $orig/.mavenrc ~
 
 # Install brew 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
