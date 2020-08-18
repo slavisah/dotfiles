@@ -7,6 +7,7 @@ export ZSH=~/.oh-my-zsh
 # Zsh and Oh-My-Zsh vars
 # DEFAULT_USER=shrkac
 DEFAULT_USER=$USER
+ZSH_DISABLE_COMPFIX=true
 
 # Oh My Zsh plugins
 plugins=(
