@@ -7,7 +7,7 @@ ln -s orig/.sandboxrc ~
 ln -s orig/.mavenrc ~
 
 # Install brew 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 #git clone https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 git clone https://github.com/bhilburn/powerlevel9k.git ~/powerlevel9k
