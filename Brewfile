@@ -15,8 +15,6 @@ brew "htop"
 brew "jq"
 brew "leiningen"
 brew "lastpass-cli"
-brew "mongodb-community", link: false
-brew "mongodb-community@3.6"
 brew "moreutils"
 brew "mtr"
 brew "nvm"
