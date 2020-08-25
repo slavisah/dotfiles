@@ -21,6 +21,7 @@ alias mq-explorer="~/software/mq-explorer/Eclipse.app/Contents/MacOS/eclipse"
 
 # create a new venv in current directory
 alias mkvenv='virtualenv -p python3.7 venv3.7'
+
 # activate virtual env
 alias venv='. ./venv*/bin/activate'
 
@@ -31,3 +32,10 @@ alias pipenv-install='PIPENV_VENV_IN_PROJECT=1 pipenv install'
 # ----------
 
 alias aws='AWS_PAGER="" aws'
+
+# ----------
+# Homebrew
+# ----------
+
+# https://github.com/pyenv/pyenv/issues/106
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
