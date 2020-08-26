@@ -25,7 +25,7 @@ plugins=(
 
 if [ "$TERM_PROGRAM" = "iTerm.app" ]; then
   source $dotfiles/slavisah.zsh-theme
-  source ~/powerlevel9k/powerlevel9k.zsh-theme
+  source ~/powerlevel10k/powerlevel10k.zsh-theme
 else
   ZSH_THEME="robbyrussell"
 fi
