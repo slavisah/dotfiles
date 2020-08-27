@@ -3,10 +3,10 @@
 # ----------
 
 #  alias to interact with dotfiles repository
-alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/local/bin/git --git-dir=$HOME/dotfiles/.git --work-tree=$HOME/dotfiles'
 
 # alias to interact with configuration repositorys	
-alias config='/usr/bin/git --git-dir=$HOME/configuration/ --work-tree=$HOME'
+alias config='/usr/local/bin/git --git-dir=$HOME/configuration/.git --work-tree=$HOME/configuration'
 
 # Lock the screen (when going AFK - Away From Keyboard)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
