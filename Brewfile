@@ -18,7 +18,7 @@ brew "lastpass-cli"
 brew "moreutils"
 brew "mtr"
 brew "nvm"
-brew "privoxy"
+brew "privoxy", restart_service: true
 brew "pyenv"
 brew "shellcheck"
 brew "telnet"
