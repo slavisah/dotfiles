@@ -1,5 +1,5 @@
 # OpenShift client
-export PATH="$HOME/software/openshift-client/3.6:$PATH"
+export PATH="$HOME/software/openshift-client/3.11:$PATH"
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
