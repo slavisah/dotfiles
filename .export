@@ -2,7 +2,8 @@
 export PATH="$HOME/software/openshift-client/3.11:$PATH"
 
 # Homebrew
-export PATH="/usr/local/sbin:$PATH"
+#export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/homebrew/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 
@@ -10,5 +11,5 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/usr/local/opt/mongodb-community@3.6/bin:$PATH"
 
 # some cli tools need it set like this
-export http_proxy="http://localhost:8118"
-export https_proxy=$http_proxy
+#export http_proxy="http://localhost:8118"
+#export https_proxy=$http_proxy
