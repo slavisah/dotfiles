@@ -9,7 +9,7 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 cd $orig
 
 # install brew packages
-$HOME/homebrew/bin/brew bundle install --verbose
+$HOME/homebrew/bin/brew bundle --verbose
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -25,6 +25,7 @@ chsh -s "$(command -v zsh)"
 curl -s "https://get.sdkman.io" | bash
 
 # Symlink most important config file
+mv "$HOME/.zshrc" "$HOME/.zshrc.oh-my-zsh.backup"
 ln -sv $orig/.zshrc ~
 ln -sv $orig/.sandboxrc ~
 ln -sv $orig/.mavenrc ~
