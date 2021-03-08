@@ -4,6 +4,7 @@ export PATH="$HOME/software/openshift-client/3.11:$PATH"
 # Homebrew
 #export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/homebrew/bin:$PATH"
+export PATH="$HOME/homebrew/sbin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 
