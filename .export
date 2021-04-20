@@ -1,6 +1,9 @@
 # OpenShift client
 export PATH="$HOME/software/openshift-client/3.11:$PATH"
 
+# Cloudfoundry client
+export PATH="$HOME/software/cloudfoundry-cli/v7:$PATH"
+
 # Homebrew
 #export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/homebrew/bin:$PATH"
