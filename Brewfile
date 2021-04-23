@@ -20,6 +20,7 @@ brew "mtr"
 brew "nvm"
 brew "privoxy", restart_service: true
 brew "pyenv"
+brew "pyenv-virtualenv"
 brew "telnet"
 brew "tfswitch"
 brew "tree"
