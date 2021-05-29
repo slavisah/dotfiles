@@ -3,10 +3,10 @@
 # ----------
 
 #  alias to interact with dotfiles repository
-alias dotfiles='/usr/local/bin/git --git-dir=$HOME/dotfiles/.git --work-tree=$HOME/dotfiles'
+alias dotfiles='$HOME/homebrew/bin/git --git-dir=$HOME/dotfiles/.git --work-tree=$HOME/dotfiles'
 
 # alias to interact with configuration repositorys	
-alias config='/usr/local/bin/git --git-dir=$HOME/configuration/.git --work-tree=$HOME/configuration'
+alias config='$HOME/homebrew/bin/git --git-dir=$HOME/configuration/.git --work-tree=$HOME/configuration'
 
 # Lock the screen (when going AFK - Away From Keyboard)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
@@ -38,4 +38,4 @@ alias aws='AWS_PAGER="" aws'
 # ----------
 
 # https://github.com/pyenv/pyenv/issues/106
-alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+#alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
