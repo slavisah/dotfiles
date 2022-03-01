@@ -8,5 +8,6 @@ sandbox_init_nvm_comp(){
 
 sandbox_hook nvm node
 sandbox_hook nvm npm
+sandbox_hook nvm npx
 sandbox_hook nvm pm2
 sandbox_hook nvm yarn

@@ -46,8 +46,12 @@ compinit
 
 # pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
   eval "$(pyenv init -)"
 fi
+
+# the fuck - correcting a previous console command
+eval $(thefuck --alias)
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
