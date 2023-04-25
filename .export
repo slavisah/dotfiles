@@ -17,3 +17,6 @@ export PATH="/usr/local/opt/mongodb-community@3.6/bin:$PATH"
 # some cli tools need it set like this
 #export http_proxy="http://localhost:8118"
 #export https_proxy=$http_proxy
+
+# PostgreSQL tool
+export PATH="$HOME/homebrew/opt/libpq/bin:$PATH"

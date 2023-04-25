@@ -21,6 +21,7 @@ plugins=(
   sublime
   mvn
   history
+  zsh-autosuggestions
 )
 
 if [ "$TERM_PROGRAM" = "iTerm.app" ]; then
