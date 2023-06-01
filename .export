@@ -20,3 +20,6 @@ export PATH="/usr/local/opt/mongodb-community@3.6/bin:$PATH"
 
 # PostgreSQL tool
 export PATH="$HOME/homebrew/opt/libpq/bin:$PATH"
+
+# GPG - this is important for git commit signing 
+export GPG_TTY=$(tty)
