@@ -21,5 +21,11 @@ export PATH="/usr/local/opt/mongodb-community@3.6/bin:$PATH"
 # PostgreSQL tool
 export PATH="$HOME/homebrew/opt/libpq/bin:$PATH"
 
-# GPG - this is important for git commit signing 
+# GPG - this is important for git commit signing
 export GPG_TTY=$(tty)
+
+# IntelliJ IDEA
+export PATH="/Applications/IntelliJ IDEA.app/Contents/MacOS:$PATH"
+
+# PyCharm
+export PATH="/Applications/PyCharm CE.app/Contents/MacOS:$PATH"
